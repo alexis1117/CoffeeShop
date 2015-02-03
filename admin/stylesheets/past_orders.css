@@ -1,0 +1,47 @@
+span {
+    font-size: 12px;
+}
+
+.btn {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+form {
+    padding: 5px;
+}
+
+.container {
+    width: 100% !important;
+}
+
+.container_search {
+    display: flex;
+    display: inline-flex;
+}
+
+.container_search input {
+    width: 150px;
+    height: 25px
+}
+
+.container_search select, .container_search input, .container_search button {
+    margin: 5px;
+}
+
+.container_filter {
+    border: 1px solid #aec1ff;
+    border-radius: 5px;
+    padding: 10px !important;
+}
+
+.container_filter span {
+    font-weight: bold;
+}
+
+iframe {
+    width: 100%;
+    overflow: hidden;
+    order: 0;
+    border: 0;
+}

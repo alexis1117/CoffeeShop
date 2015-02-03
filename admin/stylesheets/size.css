@@ -1,0 +1,27 @@
+body {
+    background-color: lightgoldenrodyellow !important;
+}
+
+table {
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+th, tr > td:nth-child(1), tr > td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+tr > td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.glyphicon-remove {
+    color: darkred;
+    cursor: pointer;
+}
+
+.glyphicon-remove:hover {
+    color: #ff0000;
+}

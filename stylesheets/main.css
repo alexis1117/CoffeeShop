@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#the_wrapper {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: solid 1px black;
+}
+
+#top_header {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: #C6A76D;
+}
+
+ul#corner_menu {
+    display: flex;
+    flex: 1;
+}
+
+ul#corner_menu li a {
+    text-decoration: none;
+    font: 12px Arial, serif;
+    padding-right: 30px;
+    padding-left: 3px;
+    color: #ffffff;
+
+}
+
+#corner_menu li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+img#logo_account {
+    width: 20px;
+    height: 20px;
+}
+
+#search_form {
+    float: left;
+    white-space: nowrap;
+    margin-right: 30px;
+    padding: 2px;
+}
+
+#search_form input {
+    width: 150px;
+    color: gray;
+    height: 20px;
+}
+
+#search_form button {
+
+    background-color: #C6A76D;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    border: 3px solid #C6A76D;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#background {
+    height: 200px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#nav {
+    position: absolute;
+    top: 25%;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+ul#navigation > li {
+    display: block;
+    position: relative;
+    background-color: #C6A76D;
+    color: #5F310F;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    margin: 2px;
+    float: left;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+ul#navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul#navigation li a:hover {
+    color: #CC5114;
+}
+
+#home_menu {
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+#home_menu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+#home_menu ul > li {
+}
+
+.home_img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: solid 1px #5F310F;
+}
+
+footer p[id="the_copyright"] {
+    font: 12px Arial bold;
+    color: black;
+    margin: 20px;
+}
+
+#bottom_menu {
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    border-bottom: solid 1px #5F310F;
+    white-space: nowrap;
+
+}
+
+#bottom_menu li[id="bottom_item"] {
+    display: inline-block;
+    padding: 20px;
+    color: #CC5114;
+    font-weight: bolder;
+}
+
+#sub_menu {
+    display: block;
+    color: black;
+    list-style: none;
+    font: 10px Tahoma bold;
+
+}
+
+#sub_menu li {
+    padding: 10px;
+}
+.tabs {
+    border: none;
+    outline: none;
+}
+
+.ui-tabs {
+    border: none;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin-bottom: -1px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    border: 1px lightgray solid;
+    -webkit-border-top-left-radius: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    -moz-border-radius-topleft: 0.5em;
+    -moz-border-radius-topright: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: none;
+}
+
+.ui-tabs .ui-tabs-panel {
+    border: 1px lightgray solid;
+    width: 90%;
+}
+
+.ui-button-text {
+    padding: 0 !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ui-button {
+    width: 100px;
+    height: 25px;
+    background-color: darkgray;
+}
+
+.the_body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-top: solid 2px white;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.iframe_body {
+    display: flex;
+    flex: 1;
+    max-width: 900px;
+    min-width: 500px;
+    overflow: hidden;
+    order: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+button {
+    background-color: #d3d3d3;
+}
+
+select, select option:disabled {
+    background-color: #F2F2F2;;
+}
+
+select option {
+    background-color: #ffffff;
+}

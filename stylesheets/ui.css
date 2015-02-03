@@ -1,0 +1,52 @@
+
+.ui-widget-header, .ui-state-default {
+    background: #C6A76D;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: #C6A76D;
+}
+
+.ui-dialog-titlebar {
+    display: none;
+}
+
+.ui-widget-content {
+    border: 1px solid #5F310F;
+    background: #C6A76D;
+    border-radius: 15px;
+
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    -khtml-border-top-left-radius: 0;
+    border-top-left-radius: 15px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    -khtml-border-top-right-radius: 0;
+    border-top-right-radius: 15px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -khtml-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 15px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -khtml-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 15px;
+}
+

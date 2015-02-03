@@ -1,0 +1,11 @@
+#iframe_body {
+    background-color: #C6A76D;
+    width: 100%;
+    min-width: 550px;
+    min-height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    order: 0;
+    border: 0;
+}

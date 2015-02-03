@@ -1,0 +1,84 @@
+.the_body {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+label {
+    text-align: center;
+}
+
+.container_log {
+    width: 45%;
+    min-width: 300px;
+
+    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));
+    background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+    background-repeat: repeat-x;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin-top: 20px;
+    border: 1px solid darkgray;
+
+}
+
+form {
+    background-color: #ffffff;
+    padding-top: 20px;
+    border: 1px solid #d3d3d3;
+}
+
+.container_inside_form {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.container_outer_col1 {
+    flex: 1;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.container_outer_col2 {
+    flex: 2;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.container_row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.container_col1 {
+    flex: 1;
+    text-align: right;
+    margin: 5px;
+    white-space: nowrap;
+    min-width: 50px
+}
+
+.container_col2 {
+    display: flex;
+    flex: 4;
+    margin: 5px
+}
+
+label {
+    font-size: 12px;
+    padding-top: 10px;
+}

@@ -1,0 +1,40 @@
+.container_detail {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.container_usr, .container_address {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table, label {
+    font-size: 12px;
+}
+
+.container_status label {
+    padding-left: 20px;
+}
+
+.container_status small {
+    color: #000000;
+}
+
+h4 {
+    text-align: center;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}

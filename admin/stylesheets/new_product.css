@@ -1,0 +1,100 @@
+h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    padding: 5px 20px;
+}
+
+.container_new {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid #aec1ff;
+    border-radius: 10px;
+
+}
+
+.hidden_div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.container_input {
+    position: relative;
+    display: flex;
+    flex: 8;
+    flex-direction: column;
+}
+
+.container_sz {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+}
+
+.container_new input {
+    height: 30px;
+}
+
+.container_sz input {
+    height: 25px !important;
+    float: right;
+    width: 50%;
+}
+
+span {
+    font-size: 12px;
+    color: #000000;
+}
+
+label {
+    text-align: right;
+    font-size: 12px;
+    margin: 5px;
+}
+
+label:last-child {
+    margin-top: 120px;
+}
+
+button {
+    position: absolute;
+    width: 20%;
+    padding: 3px !important;
+    bottom: 5px;
+    right: 5px;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.alert-error span {
+    color: darkred;
+}
+
+.alert-success span {
+    color: #008000;
+}
+
+.glyphicon-remove {
+    color: darkred !important;
+    cursor: pointer;
+}
+
+.glyphicon-remove:hover {
+    color: #ff0000 !important;
+}
